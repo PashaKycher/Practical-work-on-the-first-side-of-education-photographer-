@@ -1,0 +1,43 @@
+.firstSection{
+    margin: 0 auto 150px auto;
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1170px;
+}
+
+.firstSection .content{
+    width: 38%;
+    display: flex;
+}
+
+.firstSection .content div{
+    margin: 110px 0 220px 0;
+}
+
+.firstSection .content div h2{
+    margin: 20px 0;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: bold;
+    color: rgb(35, 35, 35);
+}
+
+.firstSection .content div p{
+    margin-bottom: 60px;
+    text-align: start;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(16, 16, 16);
+}
+
+.firstSection .content div button{
+    width: 335px;
+    height: 60px;
+    border: 1px solid rgb(165, 36, 36);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: rgb(165, 36, 36);
+}
